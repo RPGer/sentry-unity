@@ -138,7 +138,6 @@ or
       <AndroidSdkArtifacts Include="$(SentryAndroidRoot)sentry/build/libs/sentry*.jar" />
       <AndroidSdkArtifacts Include="$(SentryAndroidRoot)sentry-android-ndk/build/outputs/aar/sentry-android-ndk-release.aar" />
       <AndroidSdkArtifacts Include="$(SentryAndroidRoot)sentry-android-core/build/outputs/aar/sentry-android-core-release.aar" />
-      <AndroidSdkArtifacts Include="$(SolutionDir)lib/gson-2.8.5.jar" />
     </ItemGroup>
 
     <Copy SourceFiles="@(AndroidSdkArtifacts)"
